@@ -3,7 +3,117 @@
     <head>
         <title>HTML5 Elements and Forms</title> 
     </head>
+
     <body>
+
+        <!--list in roman figure-->
+        <ol type = "i">
+            <li>i love coding./</li>
+            <li>i love coding./</li>
+            <li>i love coding./</li>
+            <li>i love coding./</li>
+            <li>i love coding./</li>
+        </ol> 
+        <br>
+
+        <!--sourcing image from pexel website-->
+        <img src ="women contemplate.jpg" alt ="photo of a women contemplating" width="120" height="200"><br>
+        <br>
+
+        <!--table skeleton-->
+        <table border="1">
+        <!--table column creation-->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <!--table content for each row-->
+        <tbody>
+            <tr>
+                <td>Lolly</td>
+                <td>2816 block B</td>
+                <td>0817644590</td>
+                <td>lollyarchie@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Melita</td>
+                <td>2612 Lavender road</td>
+                <td>Kenya</td>
+                <td>Medita011@gmail.com</td>
+            </tr>
+
+             <tr>
+                <td>James</td>
+                <td>997 Block L</td>
+                <td>0786539159</td>
+                <td>jinx@zando.com</td>
+            </tr>
+
+            <tr>
+                <td>Albert</td>
+                <td>117 Pritchard</td>
+                <td>0762350257</td>
+                <td>Albertburundi@aol.com</td>
+            </tr>
+
+            <tr>
+                <td>Enoch</td>
+                <td>78 Asplenium street</td>
+                <td>0824367360</td>
+                <td>Enochcherependzi@yahoo.com</td>
+            </tr>
+        </tbody>
+        </table>
+        <br><br>
         
+        <!--form event and user data input-->
+        <form action="" method="">
+
+            <label for="name">Name:</label>
+            <input type="name" id="name" name="name" required>
+             <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <label for="date">Email:</label>
+            <input type="date" id="date" name="date">
+            <br><br>
+            <button type="submit">Submit</button> 
+            <button type="reset">Clear</button>
+            <br><br>
+
+            <!--select input for user to choose from-->
+            <select name="country">
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+            </select>
+            <br><br>
+
+            <!--radio input button-->
+            <input type="radio" id="gender" name="gender" value="boy">girl
+            <input type="radio" id="gender" name="gender" value="boy">boy
+            <br><br>
+
+            <!--checkboxes button to accept user input-->
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" name="hobbies" value="art">Art
+            <input type="checkbox" name="hobbies" value="reading">Reading
+            <input type="checkbox" name="hobbies" value="dancing">Dancing
+            <input type="checkbox" name="hobbies" value="bowling">bowling
+
+
+        </form> 
+    </table> 
     </body>
 </html>
