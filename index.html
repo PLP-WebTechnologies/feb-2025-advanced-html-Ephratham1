@@ -2,24 +2,43 @@
 <html>
     <head>
         <title>HTML5 Elements and Forms</title> 
+      
     </head>
 
-    <body>
-
+    <body style="background-color: beige;">
+        <div><h1>
+            Time Then Price gives you an unfair advantage. Effective and Advanced.
+        </h1>
+    </div>
+<div>
+    <p>
+    Inside of Zeussy's Mentorship, you get to understand the importance of Time & Price and their influence on the fluctuations of financial markets. You learn through three market reviews each week, trade breakdowns, access to an advanced trading model and much more.  
+    </p>
+    <h2>Included in The Mentorship</h2>
+    <p>The Mentorship is designed to enhance your understanding and guide you towards successful navigation of the markets.</p>
+</div>
+  <style>
+    table, Th, td {
+        border-collapse: collapse;   
+    }
+  </style><div>
         <!--list in roman figure-->
         <ol type = "i">
-            <li>i love coding./</li>
-            <li>i love coding./</li>
-            <li>i love coding./</li>
-            <li>i love coding./</li>
-            <li>i love coding./</li>
-        </ol> 
+            <li>Time and price cycles.</li>
+            <li>Zeussy Uncensored.</li>
+            <li>Trade Breakdowns.</li>
+            <li>Universal Time and Price Trading Model.</li>
+            <li>Market Reviews.</li>
+        </ol>
+    </div> 
         <br>
-
+            <article>
         <!--sourcing image from pexel website-->
-        <img src ="women contemplate.jpg" alt ="photo of a women contemplating" width="120" height="200"><br>
+        <img src = "https://images.pexels.com/photos/7173026/pexels-photo-7173026.jpeg?auto=compress&cs=tinysrgb&w=400" 
+        alt ="photo of a women on a trading platform" width="320" height="320"><br>
         <br>
-
+            </article>
+        <h2>Connect with mentors in your area, details bellow</h2>
         <!--table skeleton-->
         <table border="1">
         <!--table column creation-->
@@ -31,7 +50,6 @@
                 <th>Email</th>
             </tr>
         </thead>
-
         <!--table content for each row-->
         <tbody>
             <tr>
@@ -40,80 +58,97 @@
                 <td>0817644590</td>
                 <td>lollyarchie@gmail.com</td>
             </tr>
-
             <tr>
                 <td>Melita</td>
                 <td>2612 Lavender road</td>
-                <td>Kenya</td>
+                <td>0762354461</td>
                 <td>Medita011@gmail.com</td>
             </tr>
-
              <tr>
                 <td>James</td>
                 <td>997 Block L</td>
                 <td>0786539159</td>
                 <td>jinx@zando.com</td>
             </tr>
-
             <tr>
                 <td>Albert</td>
                 <td>117 Pritchard</td>
                 <td>0762350257</td>
                 <td>Albertburundi@aol.com</td>
             </tr>
-
             <tr>
                 <td>Enoch</td>
                 <td>78 Asplenium street</td>
                 <td>0824367360</td>
                 <td>Enochcherependzi@yahoo.com</td>
             </tr>
-        </tbody>
+        </tbody> 
         </table>
-        <br><br>
-        
+        <br>
+        <div>
+            <h3>Enroll today to become a student by completing the form below</h3>
+        </div>
         <!--form event and user data input-->
-        <form action="" method="">
-
+        <form action="" method="">       
             <label for="name">Name:</label>
-            <input type="name" id="name" name="name" required>
+            <input type="name" id="name" name="name" required onsubmit="return validateForm()">
              <br><br>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required placeholder="Example@gmail.com">
             <br><br>
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="password" name="password" required >
             <br><br>
             <label for="date">Email:</label>
-            <input type="date" id="date" name="date">
+            <input type="date" id="date" name="date" required>
+            <br><br>
+            <!--select input for user to choose from-->
+            <label for="mySelect">Choose country:</label>
+                <select id="mySelect" name="mySelect" required>
+                <option value="no_selection">--country--</option>
+                <option value="uk">United Kingdom</option>
+                <option value="us">United States</option>
+                <option value="sa">Sout Africa</option>
+                <option value="nig">Nigeria</option>
+                <option value="ind">India</option>
+                <option value="jpn">Japan</option>
+                <option value="cng">Congo</option>
+            </select>
+            <br><br>
+             <!--radio input button-->
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="male" value="male">Male
+            <input type="radio" id="gender" name="female" value="female">Female
+            <br><br>
+            <!--checkboxes button to accept user input-->
+            <label for="mentorship_type">Select Mentorship:</label>
+            <input type="checkbox" name="mentorship_type" value="signals">signals
+            <input type="checkbox" name="mentorship_type" value="1 month">1 month
+            <input type="checkbox" name="mentorship_type" value="3 months">3 months
+            <input type="checkbox" name="mentorship_type" value="Life time">Life time
             <br><br>
             <button type="submit">Submit</button> 
             <button type="reset">Clear</button>
-            <br><br>
-
-            <!--select input for user to choose from-->
-            <select name="country">
-                <option value="us">United States</option>
-                <option value="uk">United Kingdom</option>
-                <option value="us">United States</option>
-                <option value="uk">United Kingdom</option>
-            </select>
-            <br><br>
-
-            <!--radio input button-->
-            <input type="radio" id="gender" name="gender" value="boy">girl
-            <input type="radio" id="gender" name="gender" value="boy">boy
-            <br><br>
-
-            <!--checkboxes button to accept user input-->
-            <label for="hobbies">Hobbies:</label>
-            <input type="checkbox" name="hobbies" value="art">Art
-            <input type="checkbox" name="hobbies" value="reading">Reading
-            <input type="checkbox" name="hobbies" value="dancing">Dancing
-            <input type="checkbox" name="hobbies" value="bowling">bowling
-
-
-        </form> 
-    </table> 
-    </body>
+        </form>
+        <br>
+        <h3>Advance your trading with 70+ hours of lectures!</h3>
+        <p>In The Mentorship, Zeussy shares his own expectations and 
+        real-time analysis using Advanced Time and Price Concepts 
+        for how he believes the markets are going to deliver.</p>
+<iframe width="320" height="250" src="https://www.youtube.com/embed/h6o2qmT4Ruc" title="This Is What Trading Mastery Looks Like. Thank You @InnerCircleTrader." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen controls></iframe>
+<video controls width="320" height="320">
+    <source src="zeussy.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+<br>
+   <h2>trading tools</h2> 
+   <p>Get access to viewing the markets with algorithmic precision.</p>
+<br>
+<img src = "TIME CYCLES PNG-min.png" 
+alt ="image on time cycles" width="220" height="150" left: 20;>
+<img src = "ADVANCED PRICE RANGES PNG-min.png" 
+alt ="image for advanced time cycles" width="220" height="150" left: 20;>
+<img src = "smtdbook.png" 
+alt ="image of the smt book" width="220" height="150" left: 20;>
+</body>
 </html>
