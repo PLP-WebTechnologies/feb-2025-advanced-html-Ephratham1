@@ -5,7 +5,7 @@
       
     </head>
 
-    <body style="background-color: beige;">
+    <body>
         <div><h1>
             Time Then Price gives you an unfair advantage. Effective and Advanced.
         </h1>
@@ -91,15 +91,15 @@
         <!--form event and user data input-->
         <form action="" method="">       
             <label for="name">Name:</label>
-            <input type="name" id="name" name="name" required onsubmit="return validateForm()">
+            <input type="name" id="name" name="name" required minlength="3" maxlength="50">
              <br><br>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required placeholder="Example@gmail.com">
+            <input type="email" id="email" name="email" required placeholder="Example@gmail.com" maxlength="50">
             <br><br>
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required >
+            <input type="password" id="password" name="password" required maxlength="8" placeholder="8 characters maximum" >
             <br><br>
-            <label for="date">Email:</label>
+            <label for="date">Date:</label>
             <input type="date" id="date" name="date" required>
             <br><br>
             <!--select input for user to choose from-->
@@ -140,15 +140,6 @@
     <source src="zeussy.mp4" type="video/mp4">
     Your browser does not support the video element.
 </video>
-<br>
-   <h2>trading tools</h2> 
-   <p>Get access to viewing the markets with algorithmic precision.</p>
-<br>
-<img src = "TIME CYCLES PNG-min.png" 
-alt ="image on time cycles" width="220" height="150" left: 20;>
-<img src = "ADVANCED PRICE RANGES PNG-min.png" 
-alt ="image for advanced time cycles" width="220" height="150" left: 20;>
-<img src = "smtdbook.png" 
-alt ="image of the smt book" width="220" height="150" left: 20;>
+
 </body>
 </html>
